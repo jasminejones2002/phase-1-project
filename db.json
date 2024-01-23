@@ -1,0 +1,34 @@
+{
+    "books": [
+        {
+            "id": "1",
+            "title": "Haunting Adeline",
+            "author": "H.D. Carlton",
+            "genre": "Dark Romance"
+        },
+        {
+            "id":"2",
+            "title":"Zodiac Academy",
+            "author":"Caroline Peckham, Susanne Valenti",
+            "genre":"Fantasy"
+        },
+        {
+            "id":"3",
+            "title":"A Court of Thorns and Roses",
+            "author":"Sarah J. Maas",
+            "genre":"Fantasy"
+        },
+        {
+            "id":"4",
+            "title":"The White Lady",
+            "author":"Jacqueline Winspear",
+            "genre":"Thriller"
+        },
+        {
+            "id":"5",
+            "title":"The Frozen River: A Novel",
+            "author":"Ariel Lawhon",
+            "genre":"Historical Fiction"
+        }
+    ]
+}
