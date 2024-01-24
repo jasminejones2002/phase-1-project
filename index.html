@@ -15,8 +15,6 @@
         <input type="text" id="title" required/>
         <label for="author">Author/s:</label>
         <input type="text" id="author" required>
-        <label for="Book cover">Book Cover:</label>
-        <input type="img" id="book-cover">
         <label for="genre">Genre:</label>
         <select id="genre-list" required>
             <option value="add-a-book">select genre</option>
@@ -30,7 +28,11 @@
             <option value="graphic-novel">Graphic Novel</option>
             <option value="manga">Manga</option>
         </select>
+        <label for="date">Date Finished:</label>
+        <input type="date" id="date-finished">
         <input type="submit" id="add-book" value="Add Book">
     </form>
+    <div id="new-book-container">
+    </div>
 </body>
 </html>

@@ -1,34 +1,46 @@
 {
-    "books": [
-        {
-            "id": "1",
-            "title": "Haunting Adeline",
-            "author": "H.D. Carlton",
-            "genre": "Dark Romance"
-        },
-        {
-            "id":"2",
-            "title":"Zodiac Academy",
-            "author":"Caroline Peckham, Susanne Valenti",
-            "genre":"Fantasy"
-        },
-        {
-            "id":"3",
-            "title":"A Court of Thorns and Roses",
-            "author":"Sarah J. Maas",
-            "genre":"Fantasy"
-        },
-        {
-            "id":"4",
-            "title":"The White Lady",
-            "author":"Jacqueline Winspear",
-            "genre":"Thriller"
-        },
-        {
-            "id":"5",
-            "title":"The Frozen River: A Novel",
-            "author":"Ariel Lawhon",
-            "genre":"Historical Fiction"
-        }
-    ]
+  "books": [
+    {
+      "id": "1",
+      "title": "Haunting Adeline",
+      "author": "H.D. Carolton",
+      "genre": "Romance",
+      "dateFinished": "2023-03-12"
+    },
+    {
+      "id": "2",
+      "title": "Zodiac Academy",
+      "author": "Caroline Peckham, Susanne Valenti",
+      "genre": "Fantasy",
+      "dateFinished": "2023-05-25"
+    },
+    {
+      "id": "3",
+      "title": "A Court of Thorns and Roses",
+      "author": "Sarah J. Maas",
+      "genre": "Fantasy",
+      "dateFinished": "2023-01-2023"
+    },
+    {
+      "id": "4",
+      "title": "The White Lady",
+      "author": "Jacqueline Winspear",
+      "genre": "Thriller",
+      "dateFinished": "2023-07-02"
+    },
+    {
+      "id": "5",
+      "title": "The Frozen River: A Novel",
+      "author": "Ariel Lawhon",
+      "genre": "Historical Fiction",
+      "dateFinished": "2023-08-20"
+    },
+    {
+      "id": "a306",
+      "title": "From Blood and Ash",
+      "author": "Jennifer L. Armentrout",
+      "genre": "fantasy",
+      "dateFinished": "2023-12-14"
+    }
+  ]
 }
