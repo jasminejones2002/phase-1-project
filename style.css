@@ -1,3 +1,8 @@
+body {
+    background-color: rgb(4, 4, 79);
+    border-color: black;
+    box-shadow: 0 0 20px;
+}
 h1 {
     background-color: rgb(215, 198, 218);
     font-family: Arial Narrow, sans-serif;
@@ -8,14 +13,14 @@ h1 {
     background-color: #dfb1eb;
     border-radius: 10px;
     box-shadow: 0 0 10px;
-    width: 350px;
+    width: 450px;
     height: 350px;
     padding: 20px;
     margin: 0 auto;
 }
 #add-books-form label {
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
 }
 #add-books-form input[type="text"],
 #add-books-form select {
@@ -34,6 +39,8 @@ h1 {
     background-color: rgb(221, 222, 222);
     border-radius: 10px;
     box-shadow: 0 0 10px;
+    width: 50%;
+    margin: auto;
 }
 p.book-card {
     font-size: 15px;
@@ -43,4 +50,8 @@ h3.book-card {
 }
 .delete {
     margin-right: 20px;
+}
+#search-bar {
+    text-align: center;
+    padding-top: 20px;
 }

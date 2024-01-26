@@ -94,6 +94,26 @@ document.addEventListener("DOMContentLoaded", () => {
         })
         .catch(error => console.log(error))
     }
+
+    function searchBooks() {
+        const searchedBooks = document.getElementById('search')
+        searchedBooks.addEventListener('input', (e) => {
+            let value = e.target.value.toLowerCase()
+            // filters through books array to see if the input value is included in the title, genre, or author
+            const filteredBooks = books.filter(book => 
+                book.title.toLowerCase().includes(value) ||
+                book.author.toLowerCase().includes(value) ||
+                book.genre.toLowerCase().includes(value)
+                );
+                renderBooks(filteredBooks);
+            })
+        // clear button just returns the data of the renderBooks function back to the screen
+        const clearButton = document.getElementById('clear')
+        clearButton.addEventListener('click', () => {
+            renderBooks(books)
+        })
+    }
     fetchBooks()
+    searchBooks()
     addBooks()
 })
