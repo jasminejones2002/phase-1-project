@@ -1,7 +1,6 @@
 body {
-    background-color: rgb(150, 66, 102);
-    border-color: black;
-    box-shadow: 0 0 20px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 10px;
 }
 h1 {
     background-color: rgb(215, 198, 218);
