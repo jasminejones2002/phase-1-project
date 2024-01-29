@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     searchBooks()
     addBook()
 })
-
+ // fetch books in db.json
 function fetchBooks() {
     fetch('http://localhost:3000/books')
     .then(res => res.json())
@@ -16,7 +16,9 @@ function fetchBooks() {
     })
     .catch(error => console.log(error))
 }
+// display db.json data in html
 function renderBooks(data) {
+    //grab new book containor
     const booksContainer = document.getElementById('new-book-container');
     //clear new book container
     booksContainer.innerHTML = '';
